@@ -1,0 +1,42 @@
+<!-- Level 1 - TASK 2
+
+JavaScript
+
+Develop a basic button that changes
+its color when clicked using
+JavaScript.
+
+Create an alert box that displays a
+greeting message based on the current
+time using JavaScript.
+
+Build a basic calculator that adds two
+numbers together and displays the
+result using JavaScript. -->
+
+<html>
+<head>
+    <title>JavaScript Examples</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="button" onclick="changeColor()">Click me to change color</button>
+    <button class="button" onclick="showGreeting()">Show Greeting</button>
+    <br>
+    <input type="number" id="num1" placeholder="Number 1">
+    <input type="number" id="num2" placeholder="Number 2">
+    <button class="button" onclick="calculate()">Add Numbers</button>
+    <p id="result"></p>
+
+    <script src="task2.js"></script>
+</body>
+</html>

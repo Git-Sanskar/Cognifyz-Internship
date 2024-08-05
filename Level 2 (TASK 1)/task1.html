@@ -1,0 +1,108 @@
+<!-- Level 2 - TASK 1
+
+Front-end Frameworks:
+
+Use a front-end framework like Bulma
+or UIKit to create a responsive card
+component with an image and text.
+
+Implement a basic responsive grid
+layout using a front-end framework
+like Bootstrap or Foundation. -->
+
+<html>
+<head>
+    <title>Responsive Grid and Card</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include Bulma CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+
+    <style>
+        /* Custom styles to avoid conflicts */
+        .card .card-image img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content .media-content {
+            margin-bottom: 1rem;
+        }
+        .card .card-body {
+            padding: 1.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="1.jpg" alt="Image 1" width="50">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Amazing Nature</p>
+                                <p class="subtitle is-6">Nature Photography</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            Discover the beauty of nature with this stunning landscape photograph. Perfect for nature lovers and outdoor enthusiasts.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="2.jpg" alt="Image 2" width="50">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Modern Architecture</p>
+                                <p class="subtitle is-6">Architectural Design</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            Explore the elegance of modern architecture with this captivating photo. Ideal for architecture enthusiasts and design professionals.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="3.jpg" alt="Image 3" width="50">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Delicious Cuisine</p>
+                                <p class="subtitle is-6">Gourmet Food</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            Enjoy a feast for the eyes with this gourmet food photo. Perfect for foodies and culinary artists alike.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

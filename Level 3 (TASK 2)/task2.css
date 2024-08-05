@@ -1,0 +1,40 @@
+header {
+    background-color: lightgrey;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+h1 {
+    text-align: center;
+}
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+.cta button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.cta button:hover {
+    background-color: grey;
+}
+footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

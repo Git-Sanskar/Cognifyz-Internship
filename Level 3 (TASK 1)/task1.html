@@ -1,0 +1,51 @@
+<!-- Level 3 - TASK 1
+
+Image Manipulation:
+
+Use CSS to create a basic image gallery
+with thumbnail images that enlarge
+when clicked.
+
+Implement a simple image slideshow
+that automatically transitions between
+images using HTML and CSS. -->
+
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+    <div class="gallery">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+        <img src="photo.jpg" class="thumbnail">
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <br><br><br>
+    <div class="slideshow">
+        <img class="slides" src="photo.jpg" alt="Slide 1">
+        <img class="slides" src="photo.jpg" alt="Slide 2">
+        <img class="slides" src="photo.jpg" alt="Slide 3">
+    </div>
+
+    <script src="task1.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    justify-content:space-between;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    width: 200px;
+    height: 100px;
+}
+
+.form-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form-container input[type="submit"] {
+    background-color: lightsalmon;
+    color: black;
+}
